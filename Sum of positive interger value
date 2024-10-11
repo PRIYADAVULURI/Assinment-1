@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main()
+{
+    int num,q,r;
+    printf("enter number:");
+    scanf("%d",&num);
+    q=num;
+    int sum=0;
+    while(q>0)
+    {
+        r=q%10;
+        sum=sum+r;
+        q=q/10;
+    }
+    printf("the reverse number=%d",sum);
+    return 0;
+    
+}
+
+OUTPUT: 
+enter number:567
+
+the reverse number=18
+
+
+
+=== Code Execution Successful ===
